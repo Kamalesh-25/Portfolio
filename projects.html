@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kamalesh J</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">KAMALESH J</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="skills.html" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle fas fa-bars"></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section projects" id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A showcase of my work demonstrating expertise in full-stack development, problem-solving, and creating solutions that make a difference.</p>
+
+            <div class="container">
+                <!-- Project Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                    <button class="filter-btn" data-filter="management">Management System</button>
+                    <button class="filter-btn" data-filter="web-portal">Web Portal</button>
+                </div>
+                
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1: Online Bookstore -->
+                    <div class="project-card" data-category="ecommerce">
+                        <div class="project-image-wrapper">
+                            <img src="assets/images/Book_store.png" alt="Online Bookstore" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Online Bookstore</h3>
+                            <p class="project-description">A comprehensive e-commerce platform for book lovers featuring user authentication, shopping cart, and payment integration. Built with modern web technologies for optimal performance.</p>
+                            <div class="project-tags">
+                                <span class="tag">Spring Boot</span><span class="tag">MySQL</span><span class="tag">React.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Kamalesh-25/Book-Store-Frontend" target="_blank" class="button button-secondary project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://bookstoreone.netlify.app/" target="_blank" class="button button-primary project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2: Student Registration System -->
+                    <div class="project-card" data-category="management">
+                        <div class="project-image-wrapper">
+                            <img src="assets/images/project-student-system.jpg" alt="Student Registration System" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Student Registration System</h3>
+                            <p class="project-description">A full-featured student management system with CRUD operations, course enrollment, grade tracking, and administrative features. Designed for educational institutions.</p>
+                            <div class="project-tags">
+                                <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="button button-secondary project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="button button-primary project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3: E-commerce App for Women’s Fashion -->
+                    <div class="project-card" data-category="ecommerce">
+                        <div class="project-image-wrapper">
+                            <img src="assets/images/project-fashion-app.jpg" alt="E-commerce App for Women’s Fashion" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Fashion E-commerce App</h3>
+                            <p class="project-description">Modern e-commerce application specifically designed for women's fashion retail, featuring advanced product filtering, wishlist, and personalized recommendations.</p>
+                            <div class="project-tags">
+                                <span class="tag">Angular</span><span class="tag">Spring Boot</span><span class="tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="button button-secondary project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="button button-primary project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4: PHP Web Portal -->
+                    <div class="project-card" data-category="web-portal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/images/project-php-portal.jpg" alt="PHP Web Portal" class="project-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">PHP Web Portal</h3>
+                            <p class="project-description">Dynamic web portal developed during my internship, featuring user management, content publishing, and administrative controls using PHP and MySQL.</p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">HTML/CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="button button-secondary project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="button button-primary project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <p class="footer-copy">© 2024 Kamalesh J. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
